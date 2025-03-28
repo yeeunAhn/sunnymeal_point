@@ -2,8 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f0fff0;
+  height: 85vh;
 }
 
 .points-box {
@@ -19,7 +18,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #28a745;
+  color: rgb(223, 113, 159);
 }
 
 .points-info {
@@ -31,5 +30,12 @@
 .points-value {
   font-size: 20px;
   font-weight: bold;
-  color: #28a745;
+  color: rgb(223, 113, 159);
+}
+
+html,
+body {
+  height: 100%; /* 페이지 전체 높이를 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  overflow: hidden; /* 스크롤 비활성화 */
 }
