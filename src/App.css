@@ -2,9 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  height: 100%; /* 페이지 전체 높이를 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  overflow: hidden; /* 스크롤 비활성화 */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,7 +27,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #d5006d;
 }
 
 @keyframes App-logo-spin {

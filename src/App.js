@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LoginPage } from "./LoginPage";
 import { PointsPage } from "./PointsPage";
-import { AdminPage } from "./AdminPage"; // 추가된 관리자 페이지
+import AdminPage from "./AdminPage"; // default import 방식으로 수정
 
 function App() {
   return (
